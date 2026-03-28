@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Pose Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+</head>
+
+<body>
+
+    <div class="glow"></div>
+
+    <nav>
+        <h2>🤖 AI Pose Studio</h2>
+        <span class="status">● LIVE</span>
+    </nav>
+
+    <div class="main">
+
+        <div class="panel left">
+            <h3>📊 Stats</h3>
+            <div class="card">Posture Score: <span id="score">92</span></div>
+            <div class="card">Status: <span id="statusText">Good</span></div>
+            <div class="card">FPS: <span id="fps">--</span></div>
+        </div>
+
+        <div id="canvas-container"></div>
+
+        <div class="panel right">
+            <h3>⚙ Controls</h3>
+            <button onclick="toggleSkeleton()">Toggle Skeleton</button>
+            <button onclick="togglePoints()">Toggle Points</button>
+            <button onclick="toggleFilter()">Toggle Filter</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Built with ❤️ by Kartik</p>
+    </footer>
+
+    <script src="sketch.js"></script>
+
+</body>
+</html>
