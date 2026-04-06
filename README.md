@@ -39,3 +39,22 @@ Posture-Detector/
 ├── sketch.js
 ├── style.css
 └── README.md
+
+---
+
+## 💻 Local Development
+
+If you have **Docker** installed, you can run this entire project with two commands:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Tewari-Kartik/Posture-Detector.git](https://github.com/Tewari-Kartik/Posture-Detector.git)
+
+2. **Navigate to the folder:**
+   ```bash
+   cd Posture-Detector
+
+3. **Open the project:**
+   Simply open index.html in your favorite browser to start the detector.
+
+
