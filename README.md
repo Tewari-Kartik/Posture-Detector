@@ -30,18 +30,6 @@ Maintaining good posture is crucial for long-term health, especially for those s
 
 ---
 
-## 📂 Project Structure
-
-```text
-Posture-Detector/
-├── images/
-├── index.html
-├── sketch.js
-├── style.css
-└── README.md
-
----
-
 ## 💻 Local Development
 
 If you have **Docker** installed, you can run this entire project with two commands:
