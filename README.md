@@ -22,21 +22,20 @@ Maintaining good posture is crucial for long-term health, especially for those s
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-| :--- | :--- |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="20"/> **JavaScript** | Core application logic |
-| <img src="https://ml5js.org/static/ml5_logo_purple-37731871a2e7c4f1074e5b2e557f33d4.png" alt="ml5" width="20"/> **ml5.js** | PoseNet machine learning model |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="20"/> **HTML5** | Structure and layout |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="20"/> **CSS3** | Styling and responsiveness |
-| <img src="https://p5js.org/assets/img/p5js.svg" alt="p5js" width="20"/> **p5.js** | Webcam feed and canvas rendering |
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![ml5js](https://img.shields.io/badge/ml5.js-a159ff?style=for-the-badge&logo=ml5dotjs&logoColor=white)
+![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white)
 
 ---
 
 ## 📂 Project Structure
+
 ```text
 Posture-Detector/
-├── images/           # Assets and screenshots
-├── index.html        # Main entry point
-├── sketch.js         # ML logic and p5.js drawing
-├── style.css         # Styling and layout
-└── README.md         # Project documentation
+├── images/
+├── index.html
+├── sketch.js
+├── style.css
+└── README.md
